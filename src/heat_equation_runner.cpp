@@ -68,7 +68,7 @@ int main(int argc, const char *argv[])
   }
 
 
-  printf("%s;%s;%lu, %lu;%.4f;%.4f\n", get_target_device_type(), get_solver_version(), grid_size, last_iter, elapsed_time, last_etol);
+  printf("%s;%s;%lu;%lu;%.4f;%.4f\n", get_target_device_type(), get_solver_version(), grid_size, last_iter, elapsed_time, last_etol);
 }
 
 static FLOAT_TYPE
